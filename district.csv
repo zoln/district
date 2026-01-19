@@ -1,3 +1,4 @@
+id	name	parent_id	initial	initials	pinyin	extra	suffix	code	area_code	order
 1	北京	0	b	bj	beijing		市	110000	010	1
 2	天津	0	t	tj	tianjin		市	120000	022	2
 3	上海	0	s	sh	shanghai		市	310000	021	3
@@ -61,7 +62,7 @@
 63	北辰	2	b	bc	beichen		区	120113	022	10
 64	武清	2	w	wq	wuqing		区	120114	022	11
 65	宝坻	2	b	bc	baochi		区	120115	022	12
-66	滨海新区	2	b	bhxq	binhaixinqu			120116	022	13
+66	滨海	2	b	bh	binhai	新	区	120116	022	13
 67	宁河	2	n	nh	ninghe		区	120117	022	14
 68	蓟州	2	j	jz	jizhou		区	120119	022	16
 69	静海	2	j	jh	jinghai		区	120118	022	15
@@ -75,7 +76,7 @@
 78	闵行	3	m	mx	minxing		区	310112	021	8
 79	宝山	3	b	bs	baoshan		区	310113	021	9
 80	嘉定	3	j	jd	jiading		区	310114	021	10
-81	浦东新区	3	p	pdxq	pudongxinqu			310115	021	11
+81	浦东	3	p	pd	pudong	新	区	310115	021	11
 82	金山	3	j	js	jinshan		区	310116	021	12
 83	松江	3	s	sj	songjiang		区	310117	021	13
 84	青浦	3	q	qp	qingpu		区	310118	021	14
@@ -85,40 +86,39 @@
 88	涪陵	4	f	fl	fuling		区	500102	023	2
 89	渝中	4	y	yz	yuzhong		区	500103	023	3
 90	大渡口	4	d	ddk	dadukou		区	500104	023	4
-91	江北	4	j	jb	jiangbei		区	500105	023	5
-92	沙坪坝	4	s	spb	shapingba		区	500106	023	6
-93	九龙坡	4	j	jlp	jiulongpo		区	500107	023	7
-94	南岸	4	n	na	nanan		区	500108	023	8
-95	北碚	4	b	bb	beibei		区	500109	023	9
-96	綦江	4	q	qj	qijiang		区	500110	023	10
-97	大足	4	d	dz	dazu		区	500111	023	11
-98	渝北	4	y	yb	yubei		区	500112	023	12
-99	巴南	4	b	bn	banan		区	500113	023	13
-100	黔江	4	q	qj	qianjiang		区	500114	023	14
-101	长寿	4	c	cs	changshou		区	500115	023	15
-102	江津	4	j	jj	jiangjin		区	500116	023	16
-103	合川	4	h	hc	hechuan		区	500117	023	17
-104	永川	4	y	yc	yongchuan		区	500118	023	18
-105	南川	4	n	nc	nanchuan		区	500119	023	19
-106	潼南	4	t	tn	tongnan		区	500152	023	22
-107	铜梁	4	t	tl	tongliang		区	500151	023	21
-108	荣昌	4	r	rc	rongchang		区	500153	023	23
-109	璧山	4	b	bs	bishan		区	500120	023	20
-110	梁平	4	l	lp	liangping		区	500155	023	25
-111	城口	4	c	ck	chengkou		县	500229	023	27
-112	丰都	4	f	fd	fengdu		县	500230	023	28
-113	垫江	4	d	dj	dianjiang		县	500231	023	29
-114	武隆	4	w	wl	wulong		区	500156	023	26
-115	忠县	4	z	zx	zhongxian			500233	023	30
-116	开州	4	k	kz	kaizhou		区	500154	023	24
-117	云阳	4	y	yy	yunyang		县	500235	023	31
-118	奉节	4	f	fj	fengjie		县	500236	023	32
-119	巫山	4	w	ws	wushan		县	500237	023	33
-120	巫溪	4	w	wx	wuxi		县	500238	023	34
-121	石柱	4	s	sz	shizhu	土家族	自治县	500240	023	35
-122	秀山	4	x	xs	xiushan	土家族苗族	自治县	500241	023	36
-123	酉阳	4	y	yy	youyang	土家族苗族	自治县	500242	023	37
-124	彭水	4	p	ps	pengshui	苗族土家族	自治县	500243	023	38
+92	沙坪坝	4	s	spb	shapingba		区	500106	023	5
+93	九龙坡	4	j	jlp	jiulongpo		区	500107	023	6
+94	南岸	4	n	na	nanan		区	500108	023	7
+95	北碚	4	b	bb	beibei		区	500109	023	8
+96	綦江	4	q	qj	qijiang		区	500110	023	9
+97	大足	4	d	dz	dazu		区	500111	023	10
+98	两江	4	l	lj	liangjiang	新	区	500157	023	25
+99	巴南	4	b	bn	banan		区	500113	023	11
+100	黔江	4	q	qj	qianjiang		区	500114	023	12
+101	长寿	4	c	cs	changshou		区	500115	023	13
+102	江津	4	j	jj	jiangjin		区	500116	023	14
+103	合川	4	h	hc	hechuan		区	500117	023	15
+104	永川	4	y	yc	yongchuan		区	500118	023	16
+105	南川	4	n	nc	nanchuan		区	500119	023	17
+106	潼南	4	t	tn	tongnan		区	500152	023	20
+107	铜梁	4	t	tl	tongliang		区	500151	023	19
+108	荣昌	4	r	rc	rongchang		区	500153	023	21
+109	璧山	4	b	bs	bishan		区	500120	023	18
+110	梁平	4	l	lp	liangping		区	500155	023	23
+111	城口	4	c	ck	chengkou		县	500229	023	26
+112	丰都	4	f	fd	fengdu		县	500230	023	27
+113	垫江	4	d	dj	dianjiang		县	500231	023	28
+114	武隆	4	w	wl	wulong		区	500156	023	24
+115	忠县	4	z	zx	zhongxian			500233	023	29
+116	开州	4	k	kz	kaizhou		区	500154	023	22
+117	云阳	4	y	yy	yunyang		县	500235	023	30
+118	奉节	4	f	fj	fengjie		县	500236	023	31
+119	巫山	4	w	ws	wushan		县	500237	023	32
+120	巫溪	4	w	wx	wuxi		县	500238	023	33
+121	石柱	4	s	sz	shizhu	土家族	自治县	500240	023	34
+122	秀山	4	x	xs	xiushan	土家族苗族	自治县	500241	023	35
+123	酉阳	4	y	yy	youyang	土家族苗族	自治县	500242	023	36
+124	彭水	4	p	ps	pengshui	苗族土家族	自治县	500243	023	37
 125	石家庄	5	s	sjz	shijiazhuang		市	130100	0311	1
 126	唐山	5	t	ts	tangshan		市	130200	0315	2
 127	秦皇岛	5	q	qhd	qinhuangdao		市	130300	0335	3
