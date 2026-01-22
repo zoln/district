@@ -2,9 +2,11 @@ Changes 21.0
 												22 Jan 2026
 
 	*）修改单县的拼音为 shanxian；
+	*）修改 琅玡 为 琅琊 ；
 
 	更新脚本：
    	UPDATE `district` SET `initial` = 's' , `initials` = 'sx' , `pinyin` = 'shanxian' WHERE `id` = '1828'; 
+   	UPDATE `system`.`district` SET `name` = '琅琊' WHERE `id` = '1469'; 
 
 Changes 20.0
 												19 Jan 2026
