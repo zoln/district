@@ -1,3 +1,11 @@
+Changes 21.0
+												22 Jan 2026
+
+	*）修改单县的拼音为 shanxian；
+
+	更新脚本：
+   	UPDATE `district` SET `initial` = 's' , `initials` = 'sx' , `pinyin` = 'shanxian' WHERE `id` = '1828'; 
+
 Changes 20.0
 												19 Jan 2026
 
